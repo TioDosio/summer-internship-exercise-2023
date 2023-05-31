@@ -14,6 +14,16 @@ class SnailShellPattern implements ISnailShellPattern {
    * @return order array of values thar represent a snail shell pattern
    */
   public Future<int[]> getSnailShell(int[][] matrix) {
-    throw new RuntimeException("Not Implemented Yet");
+    //throw new RuntimeException("Not Implemented Yet");
+    int n = matrix.length;
+    int[] result = new int[n * n];
+    for(int i=0; i<n; i++) {
+      for(int j=0; j<n; j++) {
+
+      }
+    }
+
+
+    return null;
   };
 }
